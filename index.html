@@ -1,271 +1,278 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=no"
-    />
-    <meta
-      name="description"
-      content="Semantic-UI-Forest, collection of design, themes and templates for Semantic-UI."
-    />
-    <meta name="keywords" content="Semantic-UI, Theme, Design, Template" />
-    <meta name="author" content="PPType" />
-    <meta name="theme-color" content="#ffffff" />
 
-    <meta property="og:image" content="https://raw.githubusercontent.com/Jazzbaron/save-the-amazon/master/img/Landningsbild.jpg" /> 
+<head>
+  <meta charset="utf-8" />
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=no" />
+  <meta name="description" content="Semantic-UI-Forest, collection of design, themes and templates for Semantic-UI." />
+  <meta name="keywords" content="Semantic-UI, Theme, Design, Template" />
+  <meta name="author" content="PPType" />
+  <meta name="theme-color" content="#ffffff" />
 
-    <title>Save the Amazon</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
-      type="text/css"
-    />
-    <style type="text/css">
-      body {
-        -webkit-font-smoothing: antialiased;
-        -moz-font-smoothing: grayscale;
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/Jazzbaron/save-the-amazon/master/img/Landningsbild.jpg" />
+
+  <title>Save the Amazon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    type="text/css" />
+  <style type="text/css">
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: grayscale;
+    }
+
+    P {
+      text-align: center
+    }
+
+    H3 {
+      text-align: center
+    }
+
+    H4 {
+      text-align: center
+    }
+
+    H6 {
+      text-align: center
+    }
+
+    img {
+      max-width: 50%;
+      max-height: 50%;
+    }
+
+    .special.image.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .hidden.menu {
+      display: none;
+    }
+
+    .masthead.segment {
+      min-height: 600px;
+      padding: 1em 0em;
+      background-position: center !important;
+      contain: size !important;
+      background-image: url('https://raw.githubusercontent.com/Jazzbaron/save-the-amazon/master/img/Landningsbild.jpg') !important;
+      background-size: contain;
+    }
+
+    .masthead .logo.item img {
+      margin-right: 1em;
+    }
+
+    .masthead .ui.menu .ui.button {
+      margin-left: 0.5em;
+    }
+
+    .masthead h1.ui.header {
+      margin-top: 2em;
+      margin-bottom: 0em;
+      font-size: 4em;
+      font-weight: normal;
+    }
+
+    .masthead h2 {
+      font-size: 1.7em;
+      font-weight: normal;
+    }
+
+    .ui.vertical.stripe {
+      padding: 8em 0em;
+    }
+
+    .ui.vertical.stripe h3 {
+      font-size: 2em;
+    }
+
+    .ui.vertical.stripe .button+h3,
+    .ui.vertical.stripe p+h3 {
+      margin-top: 3em;
+    }
+
+    .ui.vertical.stripe .floated.image {
+      clear: both;
+    }
+
+    .ui.vertical.stripe p {
+      font-size: 1.33em;
+    }
+
+    .ui.vertical.stripe .horizontal.divider {
+      margin: 3em 0em;
+    }
+
+    .quote.stripe.segment {
+      padding: 0em;
+    }
+
+    .quote.stripe.segment .grid .column {
+      padding-top: 5em;
+      padding-bottom: 5em;
+    }
+
+    .footer.segment {
+      padding: 5em 0em;
+    }
+
+    .secondary.pointing.menu .toc.item {
+      display: none;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .ui.fixed.menu {
+        display: none !important;
       }
 
-      P { text-align: center }
-      H3 { text-align: center }
-      H4 { text-align: center }
-      H6 { text-align: center }
-
-      img {
-          max-width: 50%;
-          max-height: 50%;
-      }
-
-      .special.image.center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
-
-      .hidden.menu {
+      .secondary.pointing.menu .item,
+      .secondary.pointing.menu .menu {
         display: none;
-      }
-
-      .masthead.segment {
-        min-height: 600px;
-        padding: 1em 0em;
-        background-position:center !important;
-        contain: size !important;
-        background-image: url('https://raw.githubusercontent.com/Jazzbaron/save-the-amazon/master/img/Landningsbild.jpg') !important;
-        background-size: contain;
-      }
-
-      .masthead .logo.item img {
-        margin-right: 1em;
-      }
-
-      .masthead .ui.menu .ui.button {
-        margin-left: 0.5em;
-      }
-
-      .masthead h1.ui.header {
-        margin-top: 2em;
-        margin-bottom: 0em;
-        font-size: 4em;
-        font-weight: normal;
-      }
-
-      .masthead h2 {
-        font-size: 1.7em;
-        font-weight: normal;
-      }
-
-      .ui.vertical.stripe {
-        padding: 8em 0em;
-      }
-
-      .ui.vertical.stripe h3 {
-        font-size: 2em;
-      }
-
-      .ui.vertical.stripe .button + h3,
-      .ui.vertical.stripe p + h3 {
-        margin-top: 3em;
-      }
-
-      .ui.vertical.stripe .floated.image {
-        clear: both;
-      }
-
-      .ui.vertical.stripe p {
-        font-size: 1.33em;
-      }
-
-      .ui.vertical.stripe .horizontal.divider {
-        margin: 3em 0em;
-      }
-
-      .quote.stripe.segment {
-        padding: 0em;
-      }
-
-      .quote.stripe.segment .grid .column {
-        padding-top: 5em;
-        padding-bottom: 5em;
-      }
-
-      .footer.segment {
-        padding: 5em 0em;
       }
 
       .secondary.pointing.menu .toc.item {
-        display: none;
+        display: block;
       }
 
-      @media only screen and (max-width: 700px) {
-        .ui.fixed.menu {
-          display: none !important;
-        }
-
-        .secondary.pointing.menu .item,
-        .secondary.pointing.menu .menu {
-          display: none;
-        }
-
-        .secondary.pointing.menu .toc.item {
-          display: block;
-        }
-
-        .masthead.segment {
-          min-height: 350px;
-        }
-
-        .masthead h1.ui.header {
-          font-size: 2em;
-          margin-top: 1.5em;
-        }
-
-        .masthead h2 {
-          margin-top: 0.5em;
-          font-size: 1.5em;
-        }
+      .masthead.segment {
+        min-height: 350px;
       }
-    </style>
-  </head>
 
-  <body id="root">
+      .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+      }
 
-    
-  
+      .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
 
-    <!--Page Contents-->
-    <div class="pusher">
-      <div class="ui inverted vertical masthead center aligned segment">
-
-          
-        <div class="ui container" >
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-        </div>
-        <div class="ui text container">
-          
-          <h1 class="ui inverted header" style="font-family: ">Together we have raised:</h1>
-          <strong><h1 style="font-size: 700%; display: inline-block">731</h1></strong>SEK
-
-        </div>
+<body id="root">
+  <!--Page Contents-->
+  <div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment">
+      <div class="ui container">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
+      <div class="ui text container">
+        <h1 class="ui inverted header" style="font-family: ">Together we have raised:</h1>
+        <strong>
+          <h1 style="font-size: 700%; display: inline-block">831</h1>
+        </strong>SEK
+      </div>
+    </div>
 
-      <div class="ui vertical stripe segment">
-        <div class="ui text container">
-          <p>
-              THANK YOU for considering to contribute to our project and to OUR planet. This fundraising-idea was initiated as part 
-              of our start-up challenge at Chalmers School of Entrepreneurship. Our mission is to raise as much money as possible during 
-              this coming week. In order to actually generate value for more people than just ourselves, we decided to combine this with 
-              the very real crisis ongoing in large parts of the Amazon rainforest. 
-              <br/>
-              <br/>
-              We need your help to win the start-up challenge but your main reason to help us should be to also help the planet. 
-              <br/>
-              <br/>
-              All collected funds will go to the organization Rädda Regnskog that operates to protect our rainforests through various projects. 
-              For more information about the organization and their projects visit their website <a href="https://raddaregnskog.se" target="_blank">here</a>
-              <br/>
-              <br/>
-              We will continuously update our webpage to show how much money we actually raise. As a token of our gratitude we will 
-              together with https://raddaregnskog.se post a certificate on our combined social channels in order to show our appreciation. 
-              This will be posted on thursday afternoon around 3 PM, so be sure to make your contribution in time! 
-          </p>
-          <h4 class="ui horizontal header divider">
-            <a href="#root"> Contribute</a>
-          </h4>
-          <h3 class="ui header">Your contribution makes a real difference</h3>
-          <p>
-              To contribute, please “Swish” your contribution to the number below or use the QR-code. If you would like to be 
-              anonymous or appear with a different than the name provided by the swish please write so in your Swish. At the 
-              end of the week we will only uncover the entire raised sum plus the names of every contributor and not the sum 
-              contributed by each individual.
-              <br/>
-              <br/>
-              By sending a swish payment, you accept that we temporarily save the information provided by you in the swish message 
-              and that the provided name will be posted after the fundraising is finished. The information, 
-              other than the name you accept to be published, will not be shared with anyone outside of our group.
-          </p>
-          <br>
-        </div>
-        
-        <div class="ui text container">
-            <h3 class="ui header">Contribute by sending a swish to:</h3>
-             <h3 class="ui header">070-955 95 02</h3>
-             <br>
-        </div>
-
-        <div class="ui text container">
-            <img src="https://raw.githubusercontent.com/Jazzbaron/save-the-amazon/master/img/getswish_qr.png" class="special image center" />
-        </div>
+    <div class="ui vertical stripe segment">
+      <div class="ui text container">
+        <p>
+          THANK YOU for considering to contribute to our project and to OUR planet. This fundraising-idea was initiated
+          as part
+          of our start-up challenge at Chalmers School of Entrepreneurship. Our mission is to raise as much money as
+          possible during
+          this coming week. In order to actually generate value for more people than just ourselves, we decided to
+          combine this with
+          the very real crisis ongoing in large parts of the Amazon rainforest.
+          <br />
+          <br />
+          We need your help to win the start-up challenge but your main reason to help us should be to also help the
+          planet.
+          <br />
+          <br />
+          All collected funds will go to the organization Rädda Regnskog that operates to protect our rainforests
+          through various projects.
+          For more information about the organization and their projects visit their website <a
+            href="https://raddaregnskog.se" target="_blank">here</a>
+          <br />
+          <br />
+          We will continuously update our webpage to show how much money we actually raise. As a token of our gratitude
+          we will
+          together with https://raddaregnskog.se post a certificate on our combined social channels in order to show our
+          appreciation.
+          This will be posted on thursday afternoon around 3 PM, so be sure to make your contribution in time!
+        </p>
+        <h4 class="ui horizontal header divider">
+          <a href="#root"> Contribute</a>
+        </h4>
+        <h3 class="ui header">Your contribution makes a real difference</h3>
+        <p>
+          To contribute, please “Swish” your contribution to the number below or use the QR-code. <strong> If you would
+            like to be
+            anonymous or appear with a different name </strong>than the one provided by default (your name), please
+          write so in your Swish. At the
+          end of the week we will only uncover the entire raised sum plus the names of every contributor and not the sum
+          contributed by each individual.
+          <br />
+          <br />
+          By sending a swish payment, you accept that we temporarily save the information provided by you in the swish
+          message
+          and that the provided name will be posted after the fundraising is finished. The information,
+          other than the name you accept to be published, will not be shared with anyone outside of our group.
+        </p>
         <br>
-        <div class="ui text container">
+      </div>
+      <div class="ui text container">
+        <h3 class="ui header">Contribute by sending a swish to:</h3>
+        <h3 class="ui header">070-955 95 02</h3>
+        <br>
+      </div>
+      <div class="ui text container">
+        <img src="https://raw.githubusercontent.com/Jazzbaron/save-the-amazon/master/img/getswish_qr.png"
+          class="special image center" />
+      </div>
+      <br>
+      <div class="ui text container">
         <h4>All funds collected will go to <i>Föreningen Rädda Regnskogen.</i></h4>
         <h6>If you have any questions, send an e-mail to: kalle.borjesson@live.se</h6>
       </div>
-      </div>
-      <div class="ui inverted vertical footer segment">
-        <div class="ui container">
-          <div class="ui stackable inverted divided equal height stackable grid">
-
-            <div class="seven wide column">
-              <h4 class="ui inverted header">Powered by Students of School of Entreprenurship | Chalmers</h4>
-            </div>
-
+    </div>
+    <div class="ui inverted vertical footer segment">
+      <div class="ui container">
+        <div class="ui stackable inverted divided equal height stackable grid">
+          <div class="seven wide column">
+            <h4 class="ui inverted header">Powered by Students of School of Entreprenurship | Chalmers</h4>
           </div>
         </div>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        // fix menu when passed
-        $(".masthead").visibility({
-          once: false,
-          onBottomPassed: function() {
-            $(".fixed.menu").transition("fade in");
-          },
-          onBottomPassedReverse: function() {
-            $(".fixed.menu").transition("fade out");
-          }
-        });
-
-        // create sidebar and attach to menu open
-        $(".ui.sidebar").sidebar("attach events", ".toc.item");
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // fix menu when passed
+      $(".masthead").visibility({
+        once: false,
+        onBottomPassed: function () {
+          $(".fixed.menu").transition("fade in");
+        },
+        onBottomPassedReverse: function () {
+          $(".fixed.menu").transition("fade out");
+        }
       });
-    </script>
-  </body>
+
+      // create sidebar and attach to menu open
+      $(".ui.sidebar").sidebar("attach events", ".toc.item");
+    });
+  </script>
+</body>
+
 </html>
